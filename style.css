@@ -528,4 +528,33 @@ h1, h2, h3, h4 {
         text-align: center !important;
         padding: 16px !important;
     }
+
+    /* Slogan Section Fixes */
+    .slogan {
+        padding: 60px 24px !important;
+        box-sizing: border-box !important;
+    }
+
+    .slogan-text {
+        font-size: clamp(1.1rem, 4vw, 1.4rem) !important;
+        line-height: 1.6 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        color: rgba(255, 255, 255, 0.85) !important;
+        display: block !important;
+        text-align: left !important;
+    }
+    
+    .slogan-line {
+        display: inline !important;
+        white-space: normal !important;
+        position: static !important;
+        width: auto !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+    
+    .slogan-cover {
+        display: none !important;
+    }
 }
