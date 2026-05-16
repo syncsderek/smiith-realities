@@ -504,4 +504,20 @@ h1, h2, h3, h4 {
         text-align: center !important;
         padding: 16px !important;
     }
+
+    /* Content Text Reductions */
+    .box-text, 
+    .about-top-text, 
+    .about-team-text, 
+    .history-text, 
+    .footer-text p {
+        font-size: 1.1rem !important;
+        line-height: 1.6 !important;
+        color: rgba(255, 255, 255, 0.8) !important;
+    }
+
+    h2 .text-inner {
+        font-size: 1.8rem !important;
+        line-height: 1.2 !important;
+    }
 }
